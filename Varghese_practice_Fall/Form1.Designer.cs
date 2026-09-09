@@ -34,7 +34,7 @@
             label3 = new Label();
             txtNumericInput = new TextBox();
             lstOut = new ListBox();
-            button1 = new Button();
+            btnCalculate = new Button();
             button2 = new Button();
             button3 = new Button();
             SuspendLayout();
@@ -94,14 +94,14 @@
             lstOut.Size = new Size(530, 124);
             lstOut.TabIndex = 5;
             // 
-            // button1
+            // btnCalculate
             // 
-            button1.Location = new Point(65, 343);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 6;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            btnCalculate.Location = new Point(65, 343);
+            btnCalculate.Name = "btnCalculate";
+            btnCalculate.Size = new Size(75, 23);
+            btnCalculate.TabIndex = 6;
+            btnCalculate.Text = "&Calculate and Display";
+            btnCalculate.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
@@ -128,7 +128,7 @@
             ClientSize = new Size(603, 439);
             Controls.Add(button3);
             Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(btnCalculate);
             Controls.Add(lstOut);
             Controls.Add(txtNumericInput);
             Controls.Add(label3);
@@ -150,7 +150,7 @@
         private Label label3;
         private TextBox txtNumericInput;
         private ListBox lstOut;
-        private Button button1;
+        private Button btnCalculate;
         private Button button2;
         private Button button3;
     }
