@@ -96,9 +96,9 @@
             // 
             // btnCalculate
             // 
-            btnCalculate.Location = new Point(65, 343);
+            btnCalculate.Location = new Point(46, 323);
             btnCalculate.Name = "btnCalculate";
-            btnCalculate.Size = new Size(75, 23);
+            btnCalculate.Size = new Size(94, 62);
             btnCalculate.TabIndex = 6;
             btnCalculate.Text = "&Calculate and Display";
             btnCalculate.UseVisualStyleBackColor = true;
