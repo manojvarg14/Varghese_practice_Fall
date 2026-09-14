@@ -31,5 +31,17 @@ namespace Varghese_practice_Fall
         {
 
         }
+
+        private void btnQuit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnclear_Click(object sender, EventArgs e)
+        {
+            txtTextInput.Clear();
+            txtNumericInput.Clear();
+            lstOut.Items.Clear();
+        }
     }
 }

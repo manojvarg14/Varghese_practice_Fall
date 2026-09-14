@@ -35,8 +35,8 @@
             txtNumericInput = new TextBox();
             lstOut = new ListBox();
             btnCalculate = new Button();
-            button2 = new Button();
-            button3 = new Button();
+            btnclear = new Button();
+            btnQuit = new Button();
             SuspendLayout();
             // 
             // label1
@@ -96,38 +96,40 @@
             // 
             // btnCalculate
             // 
-            btnCalculate.Location = new Point(46, 323);
+            btnCalculate.Location = new Point(46, 341);
             btnCalculate.Name = "btnCalculate";
-            btnCalculate.Size = new Size(94, 62);
+            btnCalculate.Size = new Size(94, 81);
             btnCalculate.TabIndex = 6;
-            btnCalculate.Text = "&Calculate and Display";
+            btnCalculate.Text = "Calculate && &Display";
             btnCalculate.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnclear
             // 
-            button2.Location = new Point(227, 343);
-            button2.Name = "button2";
-            button2.Size = new Size(75, 23);
-            button2.TabIndex = 7;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
+            btnclear.Location = new Point(219, 341);
+            btnclear.Name = "btnclear";
+            btnclear.Size = new Size(104, 81);
+            btnclear.TabIndex = 7;
+            btnclear.Text = "&Clear";
+            btnclear.UseVisualStyleBackColor = true;
+            btnclear.Click += btnclear_Click;
             // 
-            // button3
+            // btnQuit
             // 
-            button3.Location = new Point(407, 343);
-            button3.Name = "button3";
-            button3.Size = new Size(75, 23);
-            button3.TabIndex = 8;
-            button3.Text = "button3";
-            button3.UseVisualStyleBackColor = true;
+            btnQuit.Location = new Point(404, 341);
+            btnQuit.Name = "btnQuit";
+            btnQuit.Size = new Size(98, 81);
+            btnQuit.TabIndex = 8;
+            btnQuit.Text = "&Quit";
+            btnQuit.UseVisualStyleBackColor = true;
+            btnQuit.Click += btnQuit_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(603, 439);
-            Controls.Add(button3);
-            Controls.Add(button2);
+            Controls.Add(btnQuit);
+            Controls.Add(btnclear);
             Controls.Add(btnCalculate);
             Controls.Add(lstOut);
             Controls.Add(txtNumericInput);
@@ -151,7 +153,7 @@
         private TextBox txtNumericInput;
         private ListBox lstOut;
         private Button btnCalculate;
-        private Button button2;
-        private Button button3;
+        private Button btnclear;
+        private Button btnQuit;
     }
 }
