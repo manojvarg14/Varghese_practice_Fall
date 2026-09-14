@@ -42,6 +42,7 @@ namespace Varghese_practice_Fall
             txtTextInput.Clear();
             txtNumericInput.Clear();
             lstOut.Items.Clear();
+
         }
     }
 }
