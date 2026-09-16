@@ -42,11 +42,11 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Font = new Font("Arial", 14.25F, FontStyle.Bold);
             label1.ForeColor = Color.Blue;
             label1.Location = new Point(168, 9);
             label1.Name = "label1";
-            label1.Size = new Size(237, 25);
+            label1.Size = new Size(249, 22);
             label1.TabIndex = 0;
             label1.Text = "Sample Transaction Form";
             label1.Click += label1_Click;
@@ -93,6 +93,7 @@
             lstOut.Name = "lstOut";
             lstOut.Size = new Size(530, 124);
             lstOut.TabIndex = 5;
+            lstOut.TabStop = false;
             // 
             // btnCalculate
             // 
@@ -102,6 +103,7 @@
             btnCalculate.TabIndex = 6;
             btnCalculate.Text = "Calculate && &Display";
             btnCalculate.UseVisualStyleBackColor = true;
+            btnCalculate.Click += btnCalculate_Click;
             // 
             // btnclear
             // 

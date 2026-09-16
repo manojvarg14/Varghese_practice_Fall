@@ -42,7 +42,13 @@ namespace Varghese_practice_Fall
             txtTextInput.Clear();
             txtNumericInput.Clear();
             lstOut.Items.Clear();
+            txtTextInput.Focus();
+     
+        }
 
+        private void btnCalculate_Click(object sender, EventArgs e)
+        {
+            btnclear.Focus();
         }
     }
 }
