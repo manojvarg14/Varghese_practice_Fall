@@ -42,11 +42,11 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Arial", 14.25F, FontStyle.Bold);
+            label1.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Bold);
             label1.ForeColor = Color.Blue;
             label1.Location = new Point(168, 9);
             label1.Name = "label1";
-            label1.Size = new Size(249, 22);
+            label1.Size = new Size(250, 24);
             label1.TabIndex = 0;
             label1.Text = "Sample Transaction Form";
             label1.Click += label1_Click;
